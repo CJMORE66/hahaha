@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Subtitle Generator</title>
+  </head>
+  <body>
+    <h1>Upload video to generate subtitles</h1>
+    <form method="post" enctype="multipart/form-data">
+      <label for="video">Video file:</label>
+      <input type="file" name="video" id="video" required><br>
+      <label for="language">Target language (e.g., cs for Czech):</label>
+      <input type="text" name="language" id="language" value="cs"><br>
+      <button type="submit">Generate subtitles</button>
+    </form>
+  </body>
+</html>
